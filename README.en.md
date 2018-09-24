@@ -28,7 +28,7 @@ An automated script to install Python 3 and scientific libraries for Termux (And
 It is necessary to have approximately <b> 380 MB </b> of free space for a correct installation (the size may vary for later updates).
 
 ### Write permissions activated
-Have the Termux write permissions enabled (Settings => Apps => Termux => Permissions => Storage)
+Have the Termux write permissions enabled (Settings => Apps => Termux => Permissions => Storage) <br>
 <img src="images/permisos_1.jpg" width="25%" alt="Activar permisos en Termux">
 <img src="images/permisos_2.jpg" width="25%" alt="Activar permisos en Termux">
 <img src="images/permisos_3.jpg" width="25%" alt="Activar permisos en Termux">
