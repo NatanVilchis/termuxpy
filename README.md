@@ -31,7 +31,7 @@ Es necesario contar con aproximadamente <b>380 MB</b> de espacio libre para una 
 
 
 ### Permisos de escritura activados
-Tener activados los permisos de escritura de Termux (Ajustes => Apps => Termux => Permisos => Almacenamiento)
+Tener activados los permisos de escritura de Termux (Ajustes => Apps => Termux => Permisos => Almacenamiento) <br>
 <img src="images/permisos_1.jpg" width="25%" alt="Activar permisos en Termux">
 <img src="images/permisos_2.jpg" width="25%" alt="Activar permisos en Termux">
 <img src="images/permisos_3.jpg" width="25%" alt="Activar permisos en Termux">
