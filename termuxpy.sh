@@ -27,5 +27,5 @@ pip install freetype-py pypng
 #Instalamos las bibliotecas de scipy numpy:
 pkg install scipy numpy  
 #Finalmente instalamos la biblioteca matplotlib
-pip install matplotlib
+pip install matplotlib==2.2.3
  
