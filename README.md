@@ -13,7 +13,7 @@ Un script automatizado para instalar bibliotecas de uso científico para Python 
 ## Tabla de contenido
   - [Notas de la versión](#notas-de-la-versión)
   - [Pre-requisitos](#pre-requisitos)
-    - [Permisos de escritura activados](#escritura-activados)
+    - [Permisos de escritura activados](#Permisos-de-escritura-activados)
     - [Instalar Git](#instalar-git)
       - [1) Instalar Git:](#instalamos-git)
       - [2) Aceptar la instalación de Git:](#aceptar-instalacion-git)
