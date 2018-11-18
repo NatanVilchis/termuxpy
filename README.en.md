@@ -1,4 +1,4 @@
-# [TermuxPy] Python 3 for Termux
+# [TermuxPy] (1.2.0) Python 3 for Termux
 [![GitHub license](https://img.shields.io/github/license/nea/MarkdownViewerPlusPlus.svg)](LICENSE)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/natanvilchis) <br>
 Python3 + Numpy + Scipy + Matplotlib for Termux. <br>
@@ -9,6 +9,7 @@ An automated script to install Python 3 and scientific libraries for Termux (And
 ![Alt text](images/termuxpy.jpg "TermuxPy")
  
 ## Table of Contents
+  - [Version notes](#version-notes)
   - [Pre requirements](#pre-requirements)
     - [Write permissions activated](#write-permissions)
     - [Install Git](#install-git)
@@ -23,7 +24,11 @@ An automated script to install Python 3 and scientific libraries for Termux (And
     - [1) Go to the example folder](#folder-example)
     - [2) Run example with Python ](#run-example-python)
     - [3) Graphic image file ](#graphic-python)
-	
+
+## Version notes
+Version (1.2.0) - <b>Modification date: 18/NOV/2018</b><br>
+Modification was added to run the latest version of matplotlib (3.0.2)<br>
+
 ## Pre requirements
 It is necessary to have approximately <b> 380 MB </b> of free space for a correct installation (the size may vary for later updates).
 
