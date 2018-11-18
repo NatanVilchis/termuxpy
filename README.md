@@ -11,14 +11,14 @@ Un script automatizado para instalar bibliotecas de uso científico para Python 
  
  
 ## Tabla de contenido
-  - [Notas de version](#notas-de-version)
+  - [Notas de la versión](#notas-de-la-versión)
   - [Pre-requisitos](#pre-requisitos)
     - [Permisos de escritura activados](#escritura-activados)
     - [Instalar Git](#instalar-git)
       - [1) Instalar Git:](#instalamos-git)
       - [2) Aceptar la instalación de Git:](#aceptar-instalacion-git)
       - [3) Esperar hasta que la instalación termine: ](#esperar-git)
-  - [Instalación ](#instalacion)
+  - [Instalación](#instalación)
     - [1) Obtener TermuxPy](#obtener-termuxpy)
     - [2) Abrir la carpeta termuxpy](#abrir-termuxpy)
     - [3) Ejecutar el script termuxpy.sh](#ejecutar-script-termuxpy)
@@ -27,7 +27,7 @@ Un script automatizado para instalar bibliotecas de uso científico para Python 
     - [2) Ejecutar el ejemplo con python ](#ejemplo-python)
     - [3) Archivo de imagen generado ](#grafico-python)
 	
-## Notas de versión
+## Notas de la versión
 Versión (1.2.0) - <b>Modificación: 18/NOV/2018</b><br>
 Se añadió modificación para ejecutar la última versión de matplotlib (3.0.2)<br>
 
