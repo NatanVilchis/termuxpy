@@ -23,9 +23,9 @@ Un script automatizado para instalar bibliotecas de uso científico para Python 
     - [2) Abrir la carpeta termuxpy](#2-Abrir-la-carpeta-termuxpy)
     - [3) Ejecutar el script termuxpy](#3-Ejecutar-el-script-termuxpy)
   - [Ejemplo ](#ejemplo)
-    - [1) Dirigirse a la carpeta ejemplo ](#carpeta-ejemplo)
-    - [2) Ejecutar el ejemplo con python ](#ejemplo-python)
-    - [3) Archivo de imagen generado ](#grafico-python)
+    - [1) Dirigirse a la carpeta ejemplo](#1-Dirigirse-a-la-carpeta-ejemplo)
+    - [2) Ejecutar el ejemplo con python](#[2-Ejecutar-el-ejemplo-con-python)
+    - [3) Archivo de imagen generado ](#3-Archivo-de-imagen-generado)
 	
 ## Notas de la versión
 Versión (1.2.0) - <b>Modificación: 18/NOV/2018</b><br>
