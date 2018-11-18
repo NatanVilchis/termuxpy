@@ -15,13 +15,13 @@ Un script automatizado para instalar bibliotecas de uso científico para Python 
   - [Pre-requisitos](#pre-requisitos)
     - [Permisos de escritura activados](#Permisos-de-escritura-activados)
     - [Instalar Git](#instalar-git)
-      - [1) Instalar Git:](#instalamos-git)
-      - [2) Aceptar la instalación de Git:](#aceptar-instalacion-git)
-      - [3) Esperar hasta que la instalación termine: ](#esperar-git)
+      - [1) Instalar Git:](#1-Instalar-Git)
+      - [2) Aceptar la instalación de Git:](#2-Aceptar-la-instalación-de-Git)
+      - [3) Esperar hasta que la instalación termine: ](#3-Esperar-hasta-que-la-instalación-termine)
   - [Instalación](#instalación)
     - [1) Obtener TermuxPy](#obtener-termuxpy)
-    - [2) Abrir la carpeta termuxpy](#abrir-termuxpy)
-    - [3) Ejecutar el script termuxpy.sh](#ejecutar-script-termuxpy)
+    - [2) Abrir la carpeta termuxpy](#2-Abrir-la-carpeta-termuxpy)
+    - [3) Ejecutar el script termuxpy](#3-Ejecutar-el-script-termuxpy)
   - [Ejemplo ](#ejemplo)
     - [1) Dirigirse a la carpeta ejemplo ](#carpeta-ejemplo)
     - [2) Ejecutar el ejemplo con python ](#ejemplo-python)
@@ -74,7 +74,7 @@ cd termuxpy
 ````
 <img src="images/termuxpy_3.jpg" width="75%" alt="Instalación de TermuxPy"> <br>
 
-### 3) Ejecutar el script termuxpy.sh
+### 3) Ejecutar el script termuxpy
 En Termux ejecutar el siguiente comando:
 ````
 bash termuxpy.sh
