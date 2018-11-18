@@ -5,9 +5,9 @@
 Python3 + Numpy + Scipy + Matplotlib para Termux (Android). <br>
 Un script automatizado para instalar bibliotecas de uso científico para Python <br>
 
-*Leer en otros lenguajes: [Español](README.md), [Inglés](README.en.md)*
-Última modificación: 18/NOV/2018
-Se añadió modificación para ejecutar la última versión de matplotlib (3.0.2)
+*Leer en otros lenguajes: [Español](README.md), [Inglés](README.en.md)* <br>
+Última modificación: 18/NOV/2018<br>
+Se añadió modificación para ejecutar la última versión de matplotlib (3.0.2)<br>
 ![Alt text](images/termuxpy.jpg "TermuxPy")
  
  
