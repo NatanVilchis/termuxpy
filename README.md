@@ -19,7 +19,7 @@ Un script automatizado para instalar bibliotecas de uso científico para Python 
       - [2) Aceptar la instalación de Git:](#2-Aceptar-la-instalación-de-Git)
       - [3) Esperar hasta que la instalación termine: ](#3-Esperar-hasta-que-la-instalación-termine)
   - [Instalación](#instalación)
-    - [1) Obtener TermuxPy](#obtener-termuxpy)
+    - [1) Obtener TermuxPy](#1-Obtener-TermuxPy)
     - [2) Abrir la carpeta termuxpy](#2-Abrir-la-carpeta-termuxpy)
     - [3) Ejecutar el script termuxpy](#3-Ejecutar-el-script-termuxpy)
   - [Ejemplo ](#ejemplo)
