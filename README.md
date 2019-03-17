@@ -81,7 +81,7 @@ pkg install git
 ## Instalación
 ### 1) Obtener TermuxPy
 En Termux ejecutar el siguiente comando:
-````
+````bash
 git clone https://github.com/NatanVilchis/termuxpy
 ````
 <img src="images/termuxpy_1.jpg" width="75%" alt="Instalación de TermuxPy"> <br>
@@ -89,14 +89,14 @@ Esperar a que se termine de obtener todo el repositorio: <br>
 <img src="images/termuxpy_2.jpg" width="75%" alt="Instalación de TermuxPy"> <br>
 ### 2) Abrir la carpeta termuxpy
 En Termux ejecutar el siguiente comando:
-````
+````bash
 cd termuxpy
 ````
 <img src="images/termuxpy_3.jpg" width="75%" alt="Instalación de TermuxPy"> <br>
 
 ### 3) Ejecutar el script termuxpy
 En Termux ejecutar el siguiente comando:
-````
+````bash
 bash termuxpy.sh
 ````
 <b>Es importante que mientras la instalación esté en proceso el equipo no se suspenda ya que puede generar problemas de instalación</b><br>
@@ -110,14 +110,14 @@ Esperar a que termine la instalación:
 ## Ejemplo
 Este repositorio cuenta con un ejemplo para poder graficar usando la biblioteca matplotlib
 ### 1) Dirigirse a la carpeta ejemplo
-````
+````bash
 cd ejemplo
 ````
 <img src="images/ejemplo_1.jpg" width="75%" alt="Ejemplo"> <br>
 
 ### 2) Ejecutar el ejemplo con python
 En Termux escribir el siguiente comando: 
-````
+````bash
 python normal_pdf.py
 ````
 <img src="images/ejemplo_2.jpg" width="75%" alt="Ejemplo"> <br>
