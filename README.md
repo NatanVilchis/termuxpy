@@ -31,18 +31,18 @@ Un script automatizado para instalar bibliotecas de uso científico para Python 
 ## Notas de la versión
 Versión (1.2.1) - <b>Modificación: 16/MAR/2019</b><br>
 Se añadió modificación para ejecutar la última versión de matplotlib (3.0.3)<br>
-¡Mejora importante!:
-Debido a la versión 3.0.3 de matplotlib, ahora ya NO será necesario escribir directamente el uso del backend "Agg" antes de importar matplotlib.pyplot, pues la biblioteca detectará automáticamente y definirá el backend "Agg" para Termux, esto queda explicado de la siguiente forma:
+<b>¡Mejora importante!:</b><br>
+Debido a la versión 3.0.3 de matplotlib, ahora ya NO será necesario escribir directamente el uso del backend "Agg" antes de importar matplotlib.pyplot, pues la biblioteca detectará automáticamente y definirá el backend "Agg" para Termux, esto queda explicado de la siguiente forma:<br>
 
 Vieja importación (aún puede usarse):
-```
+```python
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plot 
 ```
 
 El código anterior puede simplificarse por (dando el mismo resultado):
-```
+```python
 import matplotlib.pyplot as plot 
 ```
 <b>Importante</b>: Esto NO brindará la disponibilidad de ver los gráficos mediante el uso de <b>plot.show()</b>, para guardar los gráficos se recomienda usar plot.savefig(nombre_de_archivo).<br><br>
