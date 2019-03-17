@@ -1,4 +1,4 @@
-# [TermuxPy] (1.2.0) Python 3 para Termux 
+# [TermuxPy] (1.2.1) Python 3 para Termux 
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/natanvilchis) <br>
 
@@ -28,6 +28,25 @@ Un script automatizado para instalar bibliotecas de uso científico para Python 
     - [3) Archivo de imagen generado ](#3-Archivo-de-imagen-generado)
 	
 ## Notas de la versión
+Versión (1.2.1) - <b>Modificación: 16/MAR/2019</b><br>
+Se añadió modificación para ejecutar la última versión de matplotlib (3.0.3)<br>
+¡Mejora importante!:
+Debido a la versión 3.0.3 de matplotlib, ahora ya NO será necesario escribir directamente el uso del backend "Agg" antes de importar matplotlib.pyplot, pues la biblioteca detectará automáticamente y definirá el backend "Agg" para Termux, esto queda explicado de la siguiente forma:
+
+Vieja importación (aún puede usarse):
+```
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plot 
+```
+
+El código anterior puede simplificarse por (dando el mismo resultado):
+```
+import matplotlib.pyplot as plot 
+```
+<b>Importante</>: Esto NO brindará la disponibilidad de ver los gráficos mediante el uso de <b>plot.show()</b>, para guardar los gráficos se recomienda usar plot.savefig(nombre_de_archivo).<br><br>
+
+
 Versión (1.2.0) - <b>Modificación: 18/NOV/2018</b><br>
 Se añadió modificación para ejecutar la última versión de matplotlib (3.0.2)<br>
 
