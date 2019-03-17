@@ -83,7 +83,7 @@ Wait until get the entire repository: <br>
 <img src="images/termuxpy_2.jpg" width="75%" alt="Instalación de TermuxPy"> <br>
 ### 2) Open folder termuxpy
 Execute the following command in termux: <br>
-````
+````bash
 cd termuxpy
 ````
 <img src="images/termuxpy_3.jpg" width="75%" alt="Instalación de TermuxPy"> <br>
@@ -106,7 +106,7 @@ Wait until the installation is finished:
 ## Example
 This repository has an example to generate a graph using the matplotlib library
 ### 1) Go to the example folder
-````
+````bash
 cd ejemplo
 ````
 <img src="images/ejemplo_1.jpg" width="75%" alt="Ejemplo"> <br>
