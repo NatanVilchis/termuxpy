@@ -1,4 +1,5 @@
 # [TermuxPy] (1.2.1) Python 3 para Termux 
+Versión (1.2.1) - <b>Modificación: 16/MAR/2019</b><br>
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/natanvilchis) <br>
 
