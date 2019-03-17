@@ -1,4 +1,5 @@
-# [TermuxPy] (1.2.0) Python 3 for Termux
+# [TermuxPy] (1.2.1) Python 3 for Termux
+Version (1.2.1) - <b>Modification date: 16/MAR/2019</b><br>
 [![GitHub license](https://img.shields.io/github/license/nea/MarkdownViewerPlusPlus.svg)](LICENSE)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/natanvilchis) <br>
 Python3 + Numpy + Scipy + Matplotlib for Termux. <br>
@@ -26,6 +27,24 @@ An automated script to install Python 3 and scientific libraries for Termux (And
     - [3) Graphic image file ](#graphic-python)
 
 ## Version notes
+Version (1.2.1) - <b>Modification date: 16/MAR/2019 </b> <br>
+The modification was added to run the latest version of matplotlib (3.0.3) <br>
+<b> Major improvement!: </b><br>
+The matplotlib 3.0.3 version will automatically detect the backend "Agg", this is explained as follows,: <br>
+
+Old import:
+```python
+import matplotlib
+matplotlib.use ("Agg")
+import matplotlib.pyplot as a plot
+```
+
+The previous code can be simplified by (giving the same result):
+```python
+import matplotlib.pyplot as a plot
+```
+<b> Important </b>: This did NOT provide graphics availability by using <b> plot.show() </b>, to save the graphics it is recommended to use plot.savefig(file_name).<br> <br>
+
 Version (1.2.0) - <b>Modification date: 18/NOV/2018</b><br>
 Modification was added to run the latest version of matplotlib (3.0.2)<br>
 
