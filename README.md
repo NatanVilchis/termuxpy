@@ -45,7 +45,7 @@ El código anterior puede simplificarse por (dando el mismo resultado):
 ```
 import matplotlib.pyplot as plot 
 ```
-<b>Importante</>: Esto NO brindará la disponibilidad de ver los gráficos mediante el uso de <b>plot.show()</b>, para guardar los gráficos se recomienda usar plot.savefig(nombre_de_archivo).<br><br>
+<b>Importante</b>: Esto NO brindará la disponibilidad de ver los gráficos mediante el uso de <b>plot.show()</b>, para guardar los gráficos se recomienda usar plot.savefig(nombre_de_archivo).<br><br>
 
 
 Versión (1.2.0) - <b>Modificación: 18/NOV/2018</b><br>
