@@ -67,7 +67,7 @@ Tener activados los permisos de escritura de Termux (Ajustes => Apps => Termux =
 Instalar git en Termux:  
 #### 1) Instalar Git:
 Ejecutar en termux el siguiente comando: <br> 
-```
+```bash
 pkg install git
 ```
 
