@@ -3,8 +3,9 @@ import math
 import random
 import numpy
 import scipy.stats
-import matplotlib
-matplotlib.use("Agg")
+#Las siguientes líneas de código se comentan para la versión de matplotlib 3.0.3, ya que se hacen de manera automática.
+#import matplotlib
+#matplotlib.use("Agg")
 import matplotlib.pyplot as plot
 import os
 def f(x):
