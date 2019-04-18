@@ -111,7 +111,7 @@ Esperar a que termine la instalación:
 <img src="images/termuxpy_5.jpg" width="75%" alt="Instalación de TermuxPy"> <br>
 
 <b>Nota (para algunos dispositivos):</b><br>
-Es posible que algunos dispositivos no tengan asignada correctamente la variable de entorno <b>LD_LIBRARY_PATH</b>, si ese es el caso se mostrará el siguiente mensaje:<br>
+Es posible que algunos dispositivos no tengan asignada correctamente la variable de entorno <b>LD_LIBRARY_PATH</b>, en este caso se mostrará el siguiente mensaje:<br>
 <img src="images/termuxpy_ld_library.jpg" width="75%" alt="Mensaje de LD_LIBRARY_PATH"> <br>
 Para continuar con la instalación dirigirse a la carpeta donde se descargó "termuxpy" y ejecutar de nuevo el comando:
 ````bash
