@@ -1,5 +1,5 @@
-# [TermuxPy] (1.2.1) Python 3 para Termux 
-Versión (1.2.1) - <b>Modificación: 16/MAR/2019</b><br>
+# [TermuxPy] (1.2.2) Python 3 para Termux 
+Versión (1.2.2) - <b>Modificación: 17/ABR/2019</b><br>
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/natanvilchis) <br>
 
@@ -29,6 +29,9 @@ Un script automatizado para instalar bibliotecas de uso científico para Python 
     - [3) Archivo de imagen generado ](#3-Archivo-de-imagen-generado)
 	
 ## Notas de la versión
+Versión (1.2.2) - <b>Modificación: 17/ABR/2019</b><br>
+Soporte para nueva versión de termux, adición de librería <zlib-dev> para compilación correcta de matplotlib <br><br>
+
 Versión (1.2.1) - <b>Modificación: 16/MAR/2019</b><br>
 Se añadió modificación para ejecutar la última versión de matplotlib (3.0.3)<br>
 <b>¡Mejora importante!:</b><br>
