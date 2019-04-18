@@ -106,7 +106,14 @@ bash termuxpy.sh
 Wait until the installation is finished:
 <img src="images/termuxpy_5.jpg" width="75%" alt="Instalación de TermuxPy"> <br>
 
-<b> Note: After finishing the installation, Termux will be closed to apply the corresponding changes. </b>
+<b>Note (for some devices):</b><br>
+It's possible that some devices don't have the environment variable <b>LD_LIBRARY_PATH </b> assigned correctly, in this case, the following message will be displayed:<br>
+<img src="images/termuxpy_ld_library.jpg" width="75%" alt="Mensaje de LD_LIBRARY_PATH"> <br>
+To continue with the installation go to the folder where "termuxpy" was downloaded and execute the command again:
+````bash
+bash termuxpy.sh
+````
+The installation will now end without problems. <br><br>
 
 
 ## Example
