@@ -21,10 +21,10 @@ apt -y install python
 #Actualizamos el gestor de paquetes pip de python:
 pip install --upgrade pip 
 #Instalamos bibliotecas para poder ejecutar las librerias:
-apt -y install python-dev libcrypt-dev libgfortran5 openblas freetype freetype-dev libpng libpng-dev pkg-config clang fftw libzmq libzmq-dev   
+apt -y install python-dev libcrypt-dev libgfortran5 openblas freetype freetype-dev libpng libpng-dev pkg-config clang fftw libzmq libzmq-dev zlib zlib-dev   
 #Instalamos bibliotecas para python necesarias para numpy-matplotlib: 
 pip install freetype-py pypng
-#Instalamos las bibliotecas de scipy numpy:
-pkg install scipy numpy  
+#Instalamos las bibliotecas de numpy scipy :
+pkg install numpy scipy  
 #Finalmente instalamos la biblioteca matplotlib
 pip install matplotlib==3.0.3
