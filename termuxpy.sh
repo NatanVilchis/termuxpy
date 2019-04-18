@@ -21,6 +21,17 @@ if [ -z "$LD_LIBRARY_PATH" ]
 then
 	export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib
 	echo "export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib" >> ~/.bashrc
+	echo " "
+	echo "====> INSTALACIÓN NO FINALIZADA <==="
+	echo "La variable de entorno LD_LIBRARY_PATH se ha asignado correctamente."
+	echo "La terminal se cerrará para aplicar los cambios correspondientes..."
+	echo "Vuelve a correr este script usando 'bash termuxpy.sh' para acabar la instalación."
+	echo " "
+	echo "====> UNFINISHED INSTALLATION <==="
+	echo "The environment variable LD_LIBRARY_PATH has been assigned correctly."
+	echo "The terminal will be closed to apply the corresponding changes ..."
+	echo "Run this script again using 'bash termuxpy.sh' to finish the installation.'"
+	kill -9 $PPID
 fi
 #Instalamos python:
 apt -y install python
@@ -35,10 +46,4 @@ pkg install numpy scipy
 #Finalmente instalamos la biblioteca matplotlib
 pip install matplotlib==3.0.3
 #instalación correcta
-echo " "
-echo "==> Instalación correcta <=="
-echo "La terminal se cerrará para aplicar los cambios..."
-echo " "
-echo "==> Correct installation <=="
-echo "The terminal will be closed to apply the changes..."
-kill -9 $PPID
+
