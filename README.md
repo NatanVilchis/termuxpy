@@ -1,5 +1,5 @@
-# [TermuxPy] (1.2.2) Python 3 para Termux 
-Versión (1.2.2) - <b>Modificación: 17/ABR/2019</b><br>
+# [TermuxPy] (1.2.3) Python 3 para Termux 
+Versión (1.2.3) - <b>Modificación: 17/ABR/2019</b><br>
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/natanvilchis) <br>
 
@@ -29,6 +29,9 @@ Un script automatizado para instalar bibliotecas de uso científico para Python 
     - [3) Archivo de imagen generado ](#3-Archivo-de-imagen-generado)
 	
 ## Notas de la versión
+Versión (1.2.3) - <b>Modificación: 17/ABR/2019</b><br>
+Soporte para terminales que por defecto tienen en blanco la variable de entorno LD_LIBRARY_PATH y no puede instalarse correctamente numpy, scipy y matplotlib. <br><br>
+
 Versión (1.2.2) - <b>Modificación: 17/ABR/2019</b><br>
 Soporte para nueva versión de termux, adición de librería "zlib-dev" para compilación correcta de matplotlib <br><br>
 
@@ -107,12 +110,13 @@ bash termuxpy.sh
 Esperar a que termine la instalación:
 <img src="images/termuxpy_5.jpg" width="75%" alt="Instalación de TermuxPy"> <br>
 
-
+<b>Nota: Al terminar la instalación termux se cerrará para aplicar los cambios correspondientes. </b>
 
 
 ## Ejemplo
 Este repositorio cuenta con un ejemplo para poder graficar usando la biblioteca matplotlib
 ### 1) Dirigirse a la carpeta ejemplo
+Acceder a la carpeta de instalación del repositorio termuxpy e ingresar lo siguiente:
 ````bash
 cd ejemplo
 ````
