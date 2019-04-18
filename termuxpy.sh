@@ -16,6 +16,12 @@ wget https://its-pointless.github.io/pointless.gpg
 apt-key add pointless.gpg
 #Volvemos a actualizar el listado de paquetes de apt:
 apt update
+#Agregamos si está en blanco la variable de librerias
+if [ -z "$LD_LIBRARY_PATH" ]
+then
+	export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib
+	echo "export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib" >> ~/.bashrc
+fi
 #Instalamos python:
 apt -y install python
 #Actualizamos el gestor de paquetes pip de python:
@@ -28,3 +34,11 @@ pip install freetype-py pypng
 pkg install numpy scipy  
 #Finalmente instalamos la biblioteca matplotlib
 pip install matplotlib==3.0.3
+#instalación correcta
+echo " "
+echo "==> Instalación correcta <=="
+echo "La terminal se cerrará para aplicar los cambios..."
+echo " "
+echo "==> Correct installation <=="
+echo "The terminal will be closed to apply the changes..."
+kill -9 $PPID
