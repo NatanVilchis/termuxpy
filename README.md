@@ -30,7 +30,7 @@ Un script automatizado para instalar bibliotecas de uso científico para Python 
 	
 ## Notas de la versión
 Versión (1.2.2) - <b>Modificación: 17/ABR/2019</b><br>
-Soporte para nueva versión de termux, adición de librería <zlib-dev> para compilación correcta de matplotlib <br><br>
+Soporte para nueva versión de termux, adición de librería "zlib-dev" para compilación correcta de matplotlib <br><br>
 
 Versión (1.2.1) - <b>Modificación: 16/MAR/2019</b><br>
 Se añadió modificación para ejecutar la última versión de matplotlib (3.0.3)<br>
