@@ -1,5 +1,5 @@
-# [TermuxPy] (1.2.2) Python 3 for Termux
-Version (1.2.2) - <b>Modification date: 17/APR/2019</b><br>
+# [TermuxPy] (1.2.3) Python 3 for Termux
+Version (1.2.3) - <b>Modification date: 17/APR/2019</b><br>
 [![GitHub license](https://img.shields.io/github/license/nea/MarkdownViewerPlusPlus.svg)](LICENSE)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/natanvilchis) <br>
 Python3 + Numpy + Scipy + Matplotlib for Termux. <br>
@@ -27,6 +27,9 @@ An automated script to install Python 3 and scientific libraries for Termux (And
     - [3) Graphic image file ](#graphic-python)
 
 ## Version notes
+Versión (1.2.3) - <b>Modification date: 17/ABR/2019 </b> <br>
+Support for terminals that by default have the environment variable LD_LIBRARY_PATH blank and can not be installed correctly numpy, scipy and matplotlib. <br><br>
+
 Versión (1.2.2) - <b>Modification date: 17/ABR/2019 </b> <br>
 Support for new version of termux, addition of library "zlib-dev" for correct compilation of matplotlib<br><br>
 
@@ -103,7 +106,7 @@ bash termuxpy.sh
 Wait until the installation is finished:
 <img src="images/termuxpy_5.jpg" width="75%" alt="Instalación de TermuxPy"> <br>
 
-
+<b> Note: After finishing the installation, Termux will be closed to apply the corresponding changes. </b>
 
 
 ## Example
