@@ -156,4 +156,4 @@ El gráfico generado se guardará automáticamente con nombre "normal_pdf.jpg" <
 Repositorio usado para ayuda de este script: [its-pointless-gcc_termux](https://github.com/its-pointless/gcc_termux)
 
 ## Licencia
-Este proyecto está licenciado bajo la licencia MIT, ver  [LICENSE](LICENSE) para ver los detalles.
+Este proyecto se encuentra bajo la licencia MIT, ver  [LICENSE](LICENSE) para ver los detalles.
