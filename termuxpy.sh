@@ -1,6 +1,6 @@
 #actualizamos el sistema:
 apt update
-apt -y upgrade
+#apt -y upgrade
 
 #instalamos coreutils y gnupg para utilidades del sistema: 
 apt -y install coreutils gnupg wget
@@ -39,7 +39,27 @@ apt -y install python
 #Actualizamos el gestor de paquetes pip de python:
 pip install --upgrade pip 
 #Instalamos bibliotecas para poder ejecutar las librerias:
-apt -y install python-dev libcrypt-dev libgfortran5 openblas freetype freetype-dev libpng libpng-dev pkg-config clang fftw libzmq libzmq-dev zlib zlib-dev   
+requerimientos=(
+	python-dev
+	libcrypt-dev
+	libgfortran5
+	openblas
+	freetype*
+	freetype-dev
+	libpng
+	libpng-dev
+	pkg-config
+	clang
+	fftw
+	libzmq
+	libzmq-dev
+	zlib*
+	zlib-dev   
+
+)
+for i in "${requerimientos[@]}"; do
+	apt -y install "$i"
+done
 #Instalamos bibliotecas para python necesarias para numpy-matplotlib: 
 pip install freetype-py pypng
 #Instalamos las bibliotecas de numpy scipy :
@@ -47,4 +67,3 @@ pkg install numpy scipy
 #Finalmente instalamos la biblioteca matplotlib
 pip install matplotlib==3.0.3
 #instalación correcta
-
