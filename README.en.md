@@ -27,10 +27,10 @@ An automated script to install Python 3 and scientific libraries for Termux (And
     - [3) Graphic image file ](#graphic-python)
 
 ## Version notes
-Version (1.2.5) - Modification: 23/AUG/2019
+Version (1.2.5) - <b>Modification: 23/AUG/2019</b> <br>
 Added support for 64-bit processors. Now termuxpy no longer needs to run twice.
 
-Version (1.2.4) - Modification: 23/AUG/2019
+Version (1.2.4) - <b>Modification: 23/AUG/2019</b> <br>
 A correction has been added to prevent the shutdown of the installation when a package has been depreciated or renamed.
 
 Versión (1.2.3) - <b>Modification date: 17/ABR/2019 </b> <br>
