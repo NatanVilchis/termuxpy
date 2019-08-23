@@ -1,5 +1,5 @@
-# [TermuxPy] (1.2.3) Python 3 para Termux 
-Versión (1.2.3) - <b>Modificación: 17/ABR/2019</b><br>
+# [TermuxPy] (1.2.4) Python 3 para Termux 
+Versión (1.2.4) - <b>Modificación: 23/AGO/2019</b><br>
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/natanvilchis) <br>
 
@@ -29,6 +29,10 @@ Un script automatizado para instalar bibliotecas de uso científico para Python 
     - [3) Archivo de imagen generado ](#3-Archivo-de-imagen-generado)
 	
 ## Notas de la versión
+Versión (1.2.4) - <b>Modificación: 23/AGO/2019</b><br>
+Se ha agregado una correción para prevenir el paro de la instalación cuando un paquete ha sido depreciado o renombrado.<br><br>
+
+
 Versión (1.2.3) - <b>Modificación: 17/ABR/2019</b><br>
 Soporte para terminales que por defecto tienen en blanco la variable de entorno LD_LIBRARY_PATH y no puede instalarse correctamente numpy, scipy y matplotlib. <br><br>
 
