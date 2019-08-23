@@ -1,3 +1,7 @@
+function echo2(){
+  echo -e "\033[32m$@\033[0m"
+}
+
 #actualizamos el sistema:
 apt update
 #apt -y upgrade
@@ -22,18 +26,6 @@ then
 	export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib
 	echo "export LD_LIBRARY_PATH=/data/data/com.termux/files/usr/lib" >> ~/.bashrc
 	source ~/.bashrc
-	#echo " "
-	#echo "====> UNFINISHED INSTALLATION <==="
-	#echo "The environment variable LD_LIBRARY_PATH has been assigned correctly."
-	#echo "The terminal will be closed to apply the corresponding changes ..."
-	#echo "Run this script again using 'bash termuxpy.sh' to finish the installation.'"
-	#echo " "
-	#echo "====> INSTALACIÓN NO FINALIZADA <==="
-	#echo "La variable de entorno LD_LIBRARY_PATH se ha asignado correctamente."
-	#echo "La terminal se cerrará para aplicar los cambios correspondientes..."
-	#echo "Vuelve a correr este script usando 'bash termuxpy.sh' para acabar la instalación."
-	#echo " "
-	#kill -9 $PPID
 fi
 #Instalamos python:
 apt -y install python
@@ -68,3 +60,19 @@ pkg install numpy scipy
 #Finalmente instalamos la biblioteca matplotlib
 pip install matplotlib==3.0.3
 #instalación correcta
+
+
+echo " "
+echo2 "====> ¡FINISHED INSTALLATION! <==="
+echo2 "The installation has been completed succesfully!"
+echo "YOU DON'T NEED to run termuxpy.sh again"
+echo "Termux will restart to apply the changes."
+echo "Thanks for using termuxpy"
+echo " "
+echo2 "====> INSTALACIÓN EXITOSA! <==="
+echo2 "La instalación ha terminado con éxito!"
+echo "Ya NO ES NECESARIO ejecutar termuxpy.sh"
+echo "Termux se reiniciará para aplicar los cambios"
+echo "Gracias por usar termuxpy!"
+echo " "
+kill -9 $PPID
