@@ -1,6 +1,6 @@
 # [TermuxPy] (1.2.5) Python 3 para Termux 
 *************************************************************************************
-<b>IMPORTANTE (22/ENE/2020): Por cuestiones de actualización de Python 3.8 en Termux, termuxpy no funcionará y mostrará error. Se hará seguimiento para corregir éste error.</b>
+<b>IMPORTANTE (22/ENE/2020): Por cuestiones de actualización de Python 3.8 en Termux, en estos momentos termuxpy no funciona correctamente (no instala numpy+scipy+matplotlib). Se hará seguimiento para corregir éste error.</b>
 
 
 <b>Altenativa: Se recomienda hacer uso de la siguiente aplicación gratuita para Android [Pydroid 3 - IDE for Python 3
