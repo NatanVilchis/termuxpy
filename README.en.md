@@ -4,7 +4,7 @@
 
 
 <b> Altenative: It is recommended to use the following free application for Android [Pydroid 3 - IDE for Python 3
-] (https://play.google.com/store/apps/details?id=ru.iiec.pydroid3), which contains scipy, numpy, matplotlib, jupyter, graphic support for tkinter!, and other interesting  modules. </b>
+](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3), which contains scipy, numpy, matplotlib, jupyter, graphic support for tkinter!, and other interesting  modules. </b>
 
 ************************************************** ***********************************
 
