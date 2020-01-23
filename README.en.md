@@ -1,4 +1,17 @@
 # [TermuxPy] (1.2.5) Python 3 for Termux
+************************************************** ***********************************
+<b> IMPORTANT (22/JAN/2020): Due to Python 3.8 update issues in Termux, at this time termuxpy does not work correctly (it doesn't install numpy + scipy + matplotlib). It will be tracked to correct this error. </b>
+
+
+<b> Altenative: It is recommended to use the following free application for Android [Pydroid 3 - IDE for Python 3
+] (https://play.google.com/store/apps/details?id=ru.iiec.pydroid3), which contains scipy, numpy, matplotlib, jupyter, graphic support for tkinter!, and other interesting  modules. </b>
+
+************************************************** ***********************************
+
+
+
+
+
 Version (1.2.5) - <b>Modification date: 23/AUG/2019</b><br>
 [![GitHub license](https://img.shields.io/github/license/nea/MarkdownViewerPlusPlus.svg)](LICENSE)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/natanvilchis) <br>
