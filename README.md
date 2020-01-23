@@ -3,8 +3,8 @@
 <b>IMPORTANTE (22/ENE/2020): Por cuestiones de actualización de Python 3.8 en Termux, en estos momentos termuxpy no funciona correctamente (no instala numpy+scipy+matplotlib). Se hará seguimiento para corregir éste error.</b>
 
 
-<b>Altenativa: Se recomienda hacer uso de la siguiente aplicación gratuita para Android [Pydroid 3 - IDE for Python 3
-](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3), la cual contiene scipy, numpy, matplotlib, jupyter, soporte gráfico para tkinter, entre otros módulos interesantes. </b>
+<b>Alternativa: </b> Se recomienda hacer uso de la siguiente aplicación gratuita para Android [Pydroid 3 - IDE for Python 3
+](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3), la cual contiene scipy, numpy, matplotlib, jupyter, soporte gráfico para <b>tkinter</b>!, entre otros módulos interesantes. 
 
 *************************************************************************************
 
